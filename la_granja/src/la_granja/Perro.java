@@ -16,4 +16,10 @@ public class Perro {
     private String apellido;
     private int edad;
     private boolean vive;
+    
+    /*
+    Maxi fijate que te falta añadirle tanto el constructor como los getters 
+    y setters s tu clase perro, de lo contrario no podes instanciarla.
+    __Simon__
+    */
 }

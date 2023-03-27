@@ -15,7 +15,7 @@ public class La_granja {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Perro perro = new Perro("Pichichus",3,"Verde","Perrunus",5,true);
+        // Perro perro = new Perro("Pichichus",3,"Verde","Perrunus",5,true);
     }
     
 }
