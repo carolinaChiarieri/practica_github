@@ -1,5 +1,5 @@
 # practica_github
-<<<<<<< HEAD
+
 ramos miguel
 =======
 Hola mundo!!!
