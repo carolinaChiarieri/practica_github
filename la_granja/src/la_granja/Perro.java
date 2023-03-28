@@ -22,4 +22,63 @@ public class Perro {
     y setters s tu clase perro, de lo contrario no podes instanciarla.
     __Simon__
     */
+
+    public Perro(int catidadDePatas, String nombre, String color, String apellido, int edad, boolean vive) {
+        this.catidadDePatas = catidadDePatas;
+        this.nombre = nombre;
+        this.color = color;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.vive = vive;
+    }
+
+    public int getCatidadDePatas() {
+        return catidadDePatas;
+    }
+
+    public void setCatidadDePatas(int catidadDePatas) {
+        this.catidadDePatas = catidadDePatas;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public boolean isVive() {
+        return vive;
+    }
+
+    public void setVive(boolean vive) {
+        this.vive = vive;
+    }
+    
+    /*Ahora si, gracias por recordarme Simon :D */    
 }
